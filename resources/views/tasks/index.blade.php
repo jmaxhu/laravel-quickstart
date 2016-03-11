@@ -54,7 +54,7 @@
                             <tr>
                                 <!-- Task Name -->
                                 <td class="table-text">
-                                    <div>{{ $task->name }}</div>
+                                    <div>{{ $task->id }}, {{ $task->name }}</div>
                                 </td>
 
                                 <td>
